@@ -69,3 +69,8 @@ li::first-letter {
 .weather-temperature a {
   text-decoration: none;
 }
+
+.weather-temperature .active {
+  color: #091e45;
+  cursor: default;
+}
