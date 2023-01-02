@@ -4,48 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Hey Beautiful!</h1>
-        <h2>Right now in New York</h2>
-        <ul>
-          <li>Friday 05:00pm</li>
-          <li>Clear</li>
-        </ul>
-        <div class="row">
-          <div class="col-3">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="clear"
-              width="60"
-            />
-            12°C | °F
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 60%</li>
-              <li>Wind: 2 mph</li>
-            </ul>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <h1>Hey Beautiful! Right now in...</h1>
+          <h2>New York</h2>
+          <ul>
+            <li>Friday 05:00pm</li>
+            <li>Clear</li>
+          </ul>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="https://pics.freeicons.io/uploads/icons/png/2414324231661247886-512.png"
+                alt="clear"
+                width="60"
+              />
+              12°C | °F
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 60%</li>
+                <li>Wind: 2 mph</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <small>
+          <a href="https://github.com/SavyC93/Weather-App" target="_blank"
+            >Open-source code by</a
+          >
+          Savannah Leonard
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/SavyC93/Weather-App" target="_blank"
-          >Open-source code by</a
-        >
-        Savannah Leonard
-      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
