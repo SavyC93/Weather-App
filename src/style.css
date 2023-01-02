@@ -25,6 +25,7 @@ li {
   color: #091e45;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
   list-style: none;
   font-weight: 100;
   line-height: 19px;
