@@ -46,3 +46,25 @@ li {
   max-width: 600px;
   margin: 30px auto;
 }
+
+.weather-temperature img {
+  margin-right: 10px;
+}
+
+.weather-temperature strong {
+  color: #091e45;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -26px;
+  color: #091e45;
+}
+
+.weather-temperature a {
+  text-decoration: none;
+}
