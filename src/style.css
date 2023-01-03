@@ -74,3 +74,23 @@ li::first-letter {
   color: #411c47;
   cursor: default;
 }
+
+.weather-forecast {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+  color: #411c47;
+}
+
+.weather-forecast-temp {
+  font-size: 13px;
+  color: #411c47;
+}
+
+.weather-forecast-temp-low {
+  opacity: 0.6;
+}
